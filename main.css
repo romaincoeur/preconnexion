@@ -1,0 +1,363 @@
+/*Reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* ----------- GENERAL ----------- */
+
+/* définir les polices utilisées et le background */
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: 	  'Cookie', cursive;
+    font-family: 	  'Varela Round', sans-serif;
+    background-color: #FFF;
+    color:			  #6F5F99;
+    background-image: url(img/bonifacio.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* contrer les comportement automatiques de li, ul... */
+
+* 					  { margin: 		  0;
+    padding: 		  0;
+    color:			  #6F5F99;
+    text-decoration:  none;
+    outline: 		  none;
+    border:			  none; }
+
+li 					  { list-style: none;
+    display: block; }
+
+
+/* Nettoyer les floats */
+/*à appeler à la fin d'une liste de float */
+
+.clearfix 			  { clear: 			  both; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- SET UP ----------- */
+
+
+.wrap, .wrapBig		  { margin:			  0 auto;
+    position: 		  relative; }
+
+.wrap	 			  { max-width: 	      920px;
+    width:            100%; }
+.wrapBig	 		  { width: 			  960px; }
+
+.wrapBig h6           { padding-left:     20px; }
+
+.bloc, .blocBig		  { margin: 		  20px;
+    float: 			  left; }
+
+.bloc33	 			  { width: 			  280px;
+    height: 		  270px;
+    background-color: #F4E8D9; }
+
+.bloc25               { width: 200px;
+    height: 260px; }
+
+.bloc25 .bottomBloc   { padding-top: 10px; }
+
+.bloc25 h3            { display: block; }
+
+.blocBig	 		  { height: 		  540px;
+    padding: 		  20px 0;
+    background-color: #9E005D;
+    width: 280px; }
+
+
+
+.wrap li,
+input
+{
+    width: auto;
+    padding: 0 20px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+li					  {	text-align: 	  center; }
+
+
+.c50                  { width: 49.5%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 40px; }
+
+
+.frame_pink           { background-color: #F4E8D9; }
+
+
+.button               { line-height: normal;
+    display: block;
+    cursor: pointer; }
+
+
+.btn_type3            { background-color: #ED1E79;
+    color: #ffffff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; }
+.btn_type3:hover      { background-color: #CE006C; }
+
+
+
+
+
+/* ----------- PRECONNEXION ----------- */
+
+.preconnexion
+{
+    width: 329px;
+    background-color: rgba(255, 255, 255, .5);
+    display: inline-block;
+}
+
+.preconnexion .content
+{
+    margin: 40px 30px;
+}
+
+.preconnexion .logo
+{
+    width: 219px;
+}
+
+.preconnexion .point
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10px;
+}
+
+.preconnexion form
+{
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.preconnexion input
+{
+    width: 100%;
+    background-color: rgba(255,255,255,.7);
+    padding-left: 40px;
+}
+
+.preconnexion input::-webkit-input-placeholder {
+    color: #000;
+}
+
+.preconnexion input:-moz-placeholder {
+    color:#000;
+}
+
+.preconnexion .submit
+{
+    background-color: initial;
+    width: initial;
+}
+
+.preconnexion .submit:hover
+{
+    background-color: #FFFFFF;
+}
+
+.preconnexion p
+{
+    color: #002ADF;
+    padding: initial;
+}
+
+.preconnexion p b
+{
+    font-weight: bold;
+    color: #002ADF;
+}
+
+.preconnexion hr
+{
+    border-bottom: 1px solid #002ADF;
+    margin: 40px 70px;
+}
+
+
+
+
+
+
+/*** TYPO ***/
+
+
+h1 	 			 	  { font-family: 	  'Cookie', cursive;
+    font-size: 		  30px;
+    line-height: 	  35px; }
+
+
+h2
+{
+    text-align: center;
+    padding-top: 10px;
+    line-height: 	  20px;
+    color: #002ADF;
+}
+
+
+h3 	 			 	  { font-size: 		  14px;
+    line-height: 	  20px;
+    color:			  #6F5F99; }
+
+
+legend,
+h4 	 			 	  { font-size: 		  14px;
+    line-height: 	  20px;
+    color: 			  #999; }
+
+
+h5 	 			 	  { font-family: 	  'Cookie', cursive;
+    font-size: 		  25px;
+    line-height: 	  30px; }
+
+h6 	 			 	  { font-family: 	  'Cookie', cursive;
+    font-size: 		  25px;
+    line-height: 	  30px;
+    color:            #ED1E79; }
+
+
+p
+{
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    padding-top: 20px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COLORS */
+
+
+/* blanc */
+
+{ color: #FFF; }
+{ background-color: #F4E8D9; }
+{ background-color: #EDDCCC; }
+
+
+/* bleu du texte tout ça tout ça */
+
+{ color: #002ADF; }
+
+
+/* grey */
+
+{ color: #999; }
+
+
+/* violet */
+
+{ color: #6F5F99; }
+{ background-color: #6F5F99; }
+{ background-color: #574F84; }
+
+
+/* rose */
+
+{ color: #ED1E79; }
+.pink_bg { background-color: #ED1E79; }
+.pink_bg:hover { background-color: #CE006C; }
+
+
